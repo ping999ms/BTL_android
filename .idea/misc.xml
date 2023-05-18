@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/edit_text.xml" value="0.189" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable-v24/custom_cicle.xml" value="0.189" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_bgr_add_edit.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_bgr_user.xml" value="0.157" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_bottomnavi.xml" value="0.1945" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_btn_title_crud.xml" value="0.1945" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_button.xml" value="0.1615" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_des_onbroading.xml" value="0.1945" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_ed_sach.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_ed_spn.xml" value="0.1945" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_editSach.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_linear_crud.xml" value="0.1945" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_supertitle.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_tab.xml" value="0.1945" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_title.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_title_login.xml" value="0.1945" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_title_spn.xml" value="0.1945" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_title_user.xml" value="0.1945" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_toolbar.xml" value="0.1945" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/custom_toolbar_bottomnavi.xml" value="0.153" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/drawable/customdialog.xml" value="0.189" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/activity_bai_thi.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/activity_dang_ky_admin.xml" value="0.2359375" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/activity_dang_ky_thuthu.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/activity_info.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/activity_man_hinh_cho.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/activity_on_broading.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/activity_signin_admin.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/activity_signin_thuthu.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/activity_update_thu_thu.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/add_hdctdialog.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/add_hoaDon.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/add_hoadon.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/add_sachdialog.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/add_theloaisachdialog.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/delete_dialog.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/edit_hdctdialog.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/edit_hoadon.xml" value="0.16544117647058823" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/edit_sachdialog.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/edit_theloaisachdialog.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/edit_user.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_hoadon.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_hoadonchitiet.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_info.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_on_broading_.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_onbroading_01.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_onbroading_02.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_onbroading_03.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_quanlyHD.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_quanlyhoadon.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_quanlysach.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_sach.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_theloaisach.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/fragment_thongke.xml" value="0.25735294117647056" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/item_TkSach.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/item_cau1.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/item_cau3.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/item_cau4.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/item_hdct.xml" value="0.176" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/item_hoadon.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/item_sach.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/item_sachtop.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/item_theloaisach.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/item_tksach.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/item_user.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/list_sach.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/list_theloaisach.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/onbroading_layout.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/showchitietsach_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/showtheloaisach_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/showuser.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/spn_hoadon.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/spn_matheloai.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/layout/spn_sach.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/menu/menu_botton_navi.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/menu/menu_navi.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/menu/menu_user.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_DUANMAU/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.189" />
+        <entry key="..\:/Users/Admin/Desktop/ASM_MOB/ASM_DUANMAU/app/src/main/res/layout/fragment_onbroading_03.xml" value="0.10989583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

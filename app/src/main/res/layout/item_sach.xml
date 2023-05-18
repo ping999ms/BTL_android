@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#03015A"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_tieuDe1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/kanit_regular"
+                android:paddingLeft="10dp"
+                android:text="Tiêu Đề: "
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img_edit"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/update" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_nxb"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/kanit_regular"
+                android:paddingLeft="10dp"
+                android:paddingTop="6dp"
+                android:text="Tác Giả: "
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/img_delete"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/delete" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_showchitiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Xem Thêm"
+            android:textColor="#00FF19"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

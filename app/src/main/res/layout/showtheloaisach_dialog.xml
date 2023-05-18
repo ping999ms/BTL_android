@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#000335"
+    android:padding="10dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="22dp"
+        android:layout_marginBottom="15dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_btn_title_crud"
+            android:fontFamily="@font/robotoslabvariablefont_wght"
+            android:gravity="center"
+            android:text="THÔNG TIN CHI TIẾT"
+            android:textColor="#FFE082"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_matlsach"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_itemview_showdetail"
+            android:fontFamily="@font/kanit_regular"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+
+            android:text="Mã Thể Loại: "
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_theloai"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            
+            android:background="@drawable/custom_itemview_showdetail"
+            android:fontFamily="@font/kanit_regular"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+
+            android:text="Thể Loại: "
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_mota"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            
+            android:background="@drawable/custom_itemview_showdetail"
+            android:fontFamily="@font/kanit_regular"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+
+            android:text="Mô Tả: "
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_vitri"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            
+            android:background="@drawable/custom_itemview_showdetail"
+            android:fontFamily="@font/kanit_regular"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+
+            android:text="Vị Trí: "
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ok"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_btn_title_crud"
+            android:fontFamily="@font/robotoslabvariablefont_wght"
+            android:text="OK"
+            android:textColor="#FFE082"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

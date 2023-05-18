@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ActivityMain</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_qlSach">Quản Lý Sách</string>
+    <string name="fragment_qlHoaDon">Quản Lý Hóa Đơn</string>
+    <string name="fragment_thongKe">Thống Kê</string>
+    <string name="fragment_ThongTin">Quản Lý User</string>
+</resources>

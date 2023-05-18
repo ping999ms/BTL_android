@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onbroading_02"
+    android:orientation="vertical"
+    tools:context=".FRAGMENT.onBroading_Fragment02">
+    <LinearLayout
+        android:background="@drawable/custom_des_onbroading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        >
+    <TextView
+        android:padding="5dp"
+        android:background="#17FFFFFF"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Có hai cách để hạnh phúc. Một là dùng tiền mua những thứ có thể khiến bạn hạnh phúc. Hai là dùng tri thức để biết hạnh phúc với những gì mình đang có"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/pacificoregular"
+        android:textSize="23dp" />
+    </LinearLayout>
+</LinearLayout>

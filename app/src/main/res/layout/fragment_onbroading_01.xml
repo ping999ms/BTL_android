@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onbroading_01"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".FRAGMENT.onBroading_Fragment01">
+
+    <TextView
+        android:layout_marginTop="110dp"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pacificoregular"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Đằng sau thành công của một con người không thể thiếu một cuốn sách gối đầu. Sách là kho báu tri thức của cả nhân loại, là kết tinh trí tuệ qua bao thế hệ con người."
+        android:textColor="#FFFFFF"
+        android:textSize="23sp" />
+</LinearLayout>

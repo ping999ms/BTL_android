@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onbroading_03"
+    android:orientation="vertical"
+    tools:context=".FRAGMENT.onBroading_Fragment03">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/custom_des_onbroading">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:fontFamily="@font/pacificoregular"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="Sách được coi là chìa khóa vạn năng, là bí quyết thành công đối với mỗi con người. Hãy đọc sách mỗi ngày, bạn chắc chắn sẽ không nghèo."
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+    </LinearLayout>
+</LinearLayout>

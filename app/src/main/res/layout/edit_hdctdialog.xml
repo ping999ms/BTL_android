@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000335"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="18dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_btn_title_crud"
+            android:fontFamily="@font/robotoslabvariablefont_wght"
+            android:gravity="center"
+            android:text="Sửa Hóa Đơn Chi Tiết"
+            android:textColor="#FFE082"
+            android:textSize="22sp" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_ed_spn"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@drawable/custom_title"
+            android:fontFamily="@font/bevietnampro_medium"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:text="Mã Sách"
+            android:textColor="#FFE082"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spn_idSach"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_ed_spn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom_ed_spn"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@drawable/custom_title"
+            android:fontFamily="@font/bevietnampro_medium"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:text="Mã Hóa Đơn"
+            android:textColor="#FFE082"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spn_idHd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_ed_spn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@drawable/custom_title"
+            android:fontFamily="@font/bevietnampro_medium"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:text="Số Lượng Mua"
+            android:textColor="#FFE082"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ed_soLuong"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_ed_sach"
+            android:fontFamily="@font/bevietnampro_medium"
+            android:gravity="center|left"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:text="123"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="30dp"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="5dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_save"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_btn_title_crud"
+                android:fontFamily="@font/robotoslabvariablefont_wght"
+                android:text="Lưu"
+                android:textColor="#FFE082"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="5dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_exit"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_btn_title_crud"
+                android:fontFamily="@font/robotoslabvariablefont_wght"
+                android:text="Hủy"
+                android:textColor="#FFE082"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

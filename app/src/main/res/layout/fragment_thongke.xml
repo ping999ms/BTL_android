@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#000335"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Top 10 Đầu Sách Bán Chạy Nhất"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#64FF03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/bevietnampro_medium"
+        />
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        app:boxCornerRadiusTopEnd="10dp"-->
+<!--        app:boxCornerRadiusBottomEnd="10dp"-->
+<!--        app:boxCornerRadiusTopStart="10dp"-->
+<!--        app:boxCornerRadiusBottomStart="10dp"-->
+<!--        >-->
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/ed_ngaybatdau"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="#000"-->
+<!--            android:inputType="number"-->
+<!--            android:hint="Nhập Top Bạn Cần Xem"-->
+<!--            android:textSize="20dp"-->
+<!--            />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_start"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Tìm Kiếm"-->
+<!--        />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+ >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:orientation="horizontal"
+            android:id="@+id/lv_topSach"
+            android:layout_width="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_sachtop" />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="@font/bevietnampro_medium"
+        android:text="--------------------------------------------"
+        />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:text="Thống Kê Doanh Thu"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:fontFamily="@font/bevietnampro_medium"
+        android:textColor="#64FF03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tv_tienHomNay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hôm Nay: "
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/bevietnampro_medium"
+        />
+    <TextView
+        android:id="@+id/tv_tienThangNay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tháng Này: "
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/bevietnampro_medium"
+        />
+    <TextView
+        android:id="@+id/tv_tienNamNay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Năm Này: "
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/bevietnampro_medium"
+        />
+
+</LinearLayout>

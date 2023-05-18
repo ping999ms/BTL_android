@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgr_signin"
+    android:paddingTop="20dp"
+    tools:context=".LOGIN.changePass_user">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        android:elevation="10dp"
+        android:layout_gravity="center"
+        >
+    <TextView
+        android:fontFamily="@font/robotoslabvariablefont_wght"
+        android:background="@drawable/custom_title_login"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:text="Thay Đổi Mật Khẩu"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        />
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        android:id="@+id/ed_passCu"
+        app:startIconDrawable="@drawable/lock"
+        app:startIconTint="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật Khẩu Cũ"
+            android:inputType="number"
+            android:textColor="@color/black"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ed_passMoi"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:startIconDrawable="@drawable/lock"
+        app:startIconTint="?android:attr/colorActivatedHighlight"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:textColor="@color/black"
+            android:hint="Mật Khẩu Mới"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ed_nhapLaiPass"
+        app:startIconDrawable="@drawable/lock"
+        app:startIconTint="?android:attr/colorActivatedHighlight"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:textColor="@color/black"
+            android:hint="Mật Khẩu Mới"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/custom_title_login"
+        android:id="@+id/btn_Signin"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:text="Thay Đổi Ngay"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/robotoslabvariablefont_wght"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000335"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="7dp"
+        app:cardCornerRadius="25dp"
+        android:layout_marginBottom="15dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_btn_title_crud"
+            android:fontFamily="@font/robotoslabvariablefont_wght"
+            android:gravity="center"
+            android:text="THÔNG TIN CHI TIẾT"
+            android:textColor="#FFE082"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_idUser"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            
+            android:background="@drawable/custom_btn_title_crud"
+            android:fontFamily="@font/kanit_regular"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+
+            android:text="ID User: "
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_userName"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            
+            android:background="@drawable/custom_btn_title_crud"
+            android:fontFamily="@font/kanit_regular"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+
+            android:text="Username: "
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_nameUser"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            
+            android:background="@drawable/custom_btn_title_crud"
+            android:fontFamily="@font/kanit_regular"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+
+            android:text="Full Name: "
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_phone_user"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            
+            android:background="@drawable/custom_btn_title_crud"
+            android:fontFamily="@font/kanit_regular"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+
+            android:text="Phone: "
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_btn_title_crud"
+            android:fontFamily="@font/robotoslabvariablefont_wght"
+            android:text="OK"
+            android:textColor="#FFE082"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

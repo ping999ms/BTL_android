@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add"
+        android:title="Thêm Tài Khoản"
+        />
+
+    <item
+        android:id="@+id/menu_updatePass"
+        android:title="Đổi Mật Khẩu"
+        />
+    <item
+        android:id="@+id/menu_dangXuat"
+        android:title="Đăng Xuất"
+        />
+
+    <item
+        android:id="@+id/menu_baithi"
+        android:title="Bài Thi"
+        />
+</menu>
